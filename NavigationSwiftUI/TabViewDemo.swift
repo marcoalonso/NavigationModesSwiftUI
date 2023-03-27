@@ -33,6 +33,12 @@ struct TabViewDemo: View {
                     Label("NavB But", systemImage: "square.split.1x2.fill")
                         .symbolRenderingMode(.multicolor)
                 }
+            
+            Programaticamente()
+                .tabItem {
+                    Label("Programaticamente", systemImage: "rectangle.portrait.and.arrow.forward")
+                        .symbolRenderingMode(.multicolor)
+                }
         }
     }
 }
